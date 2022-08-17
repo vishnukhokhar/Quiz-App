@@ -11,9 +11,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow-x: hidden;
+    background-color: wheat;
 }
 
 
+
+img {
+    width: 4.2rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.img {
+    position: fixed;
+}
 
 #title {
     text-align: center;
@@ -27,18 +39,35 @@ body {
 
 .questions {
     margin: 10rem auto;
-    width: 90vw;
+    width: 80vw;
     padding: 2rem;
     background: green;
     cursor: default;
     border-radius: 1rem;
+    align-items: center;
+
+
+
+    box-shadow: 0 0 0 10px #a2f8d8,
+        0 0 0 20px #a5edf4,
+        0 0 0 35px #8cc8fc;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: black;
+
+
 }
 
 #question {
     margin-bottom: 1rem;
+
+
 }
 
 .option {
+
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     border-bottom: solid 0.1rem blue;
@@ -55,22 +84,30 @@ ol {
     position: relative;
     padding: 0 1.5rem;
     color: rgb(1, 73, 73);
+
+
 }
 
 span {
     display: block;
     padding: 0.1rem 0.7rem;
     border-radius: 1rem;
+
+
 }
 
 #answer {
     margin-top: 2.5rem;
+
+
 }
 
 #stat {
     margin-top: 1.5rem;
-    color: rgb(9, 11, 124);
+    color: black;
     font-size: 1.3em;
+    text-align: right;
+
 }
 
 .buttons {
@@ -96,13 +133,19 @@ button:active {
 #answerBank {
     width: 22rem;
     height: 20rem;
-    background: yellow;
+    background: rgb(115, 0, 255);
     padding: 2rem;
     text-align: center;
     margin: auto;
     position: relative;
     top: 5rem;
     display: none;
+
+    box-shadow: 0 0 0 5px #c3fce8,
+        0 0 0 10px #62eefa,
+        0 0 0 25px #5aa3e2;
+    place-items: center;
+    color: black;
 }
 
 #score-title {
