@@ -17,7 +17,7 @@ _This site is a home page for my Quiz App. It will show your correct and wrong a
 
 ## Contact Details
 
-_email: vishnukhokhar2412@gmail.com
+email: vishnukhokhar2412@gmail.com
 
 ## Technologies Used
 
@@ -29,4 +29,4 @@ _JavaScript_
 
 _This site is licensed under the GPL license_
 
-Copyright(c) 2022 ** _Vishnu Khokhar_**
+Copyright(c) 2022 ** _Vishnu Khokhar_ **
